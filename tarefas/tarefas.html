@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTasks - Tarefas</title>
+
+    <link rel="stylesheet" href="tarefas.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo">DevTasks</h1>
+
+            <nav>
+                <a href="index.html" class="active">home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="title">Tarefas</div>
+        <form >
+            <label for="tarefas">Nova Tarefa:</label>
+            <input type="text" id="tarefas" placeholder="escreva sua tarefa">
+            <button type="submit" id="Bottom">publicar tarefa</button>
+
+                <div class="checklist">Minhas Tarefas:</div>
+
+            <input type="checkbox" id="EstudarGit">
+            <label for="EstudarGit">Estudar Git</label>
+
+                <input type="checkbox" id="FazerExercicio">
+                <label for="FazerExercicio">Fazer Exercício</label>
+
+            <input type="checkbox" id="RevisarPullRequest">
+            <label for="RevisarPullRequest">Revisar Pull Request</label>
+        </form>
+    </main>
+</body>
